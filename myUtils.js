@@ -15,5 +15,13 @@ module.exports = {
 		}
 
 		return true;
+	},
+
+	printPrimes: function(arrayOfPrimes){
+
+		for(let i = 0; i < arrayOfPrimes.length; i++){
+			console.log(arrayOfPrimes[i]);
+		}
+
 	}
 }
